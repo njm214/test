@@ -8,7 +8,7 @@ It contains two encoder/decoder architectures: a rate 1/3 encoder/decoder and a 
 
 ## Compliation
 
-To compile the whole project, `cd` into `{PROJECT_HOME} and execute
+To compile the whole project, `cd` into `{PROJECT_HOME}` and execute
 
 ```
 scons
@@ -17,9 +17,11 @@ to generate according executables under `{PROJECT_HOME}/scons_build` folder.
 
 ## Usage
 
-execute `$ source run_turbo_test` or
-execute `scons turbo`
+Execute `$ source run_turbo_test` or
+execute `scons test`
 
 # Notes
 
+Code of encoder/decoder can be found in `code` folder.
+I put the test code in the `test` folder.
 You can set the detailed parameters in `run_turbo_test` script. In which, parameter `codetype` can be set to 1 to choose a rate 1/3 encoder/decoder architecture, or 2 to choose a rate 1/4 encoder/decoder architecture.
